@@ -10,6 +10,10 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "incremental": true,
+    "allowJs": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "paths": { "@/*": ["./src/*"] },
     "plugins": [{ "name": "next" }]
   },
