@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next
+.next/
+out/
+build/
+
+# env
+.env
+.env.local
+.env*.local
+
+# misc
+.DS_Store
+*.log
+coverage/
+.vscode/
+
+# local agent instructions (not for the public repo)
+Atlas-Building-Agent-Guide.md
+AGENTS.md
+CLAUDE.md
+.claude/

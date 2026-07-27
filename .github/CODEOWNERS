@@ -1,0 +1,11 @@
+# Default owners for everything
+*                       @MorrioAI/maintainers
+
+# The talent engine is core IP — extra review
+/src/lib/talent/        @MorrioAI/talent
+
+# Handbooks owned by each craft's leads
+/docs/engineering/      @MorrioAI/engineering
+/docs/product/          @MorrioAI/product
+/docs/design/           @MorrioAI/design
+/docs/data/             @MorrioAI/data

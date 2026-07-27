@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Learn Atlas (guided program)
+    url: https://morrio.ai/universe
+    about: Role-based missions, weekly context, and mentorship live on the platform.
+  - name: Security disclosure
+    url: https://github.com/MorrioAI/Atlas-Building/security/policy
+    about: Report vulnerabilities privately.
