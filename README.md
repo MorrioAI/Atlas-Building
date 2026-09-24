@@ -26,8 +26,8 @@ pnpm dev                     # http://localhost:3000
 
 The schema lives in [`supabase/migrations`](./supabase/migrations). Apply it to
 your own Supabase project with the [Supabase CLI](https://supabase.com/docs/guides/local-development)
-(`supabase db push`) before using the media, billing or admin routes — they read
-tables that the migrations create.
+(`supabase db push`). The home page runs without it; `/api/media/video/*` and the
+AI spend ledger read tables that only the migrations create.
 
 ## Repository layout
 
