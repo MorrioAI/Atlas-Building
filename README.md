@@ -24,6 +24,11 @@ cp .env.example .env.local   # add your keys
 pnpm dev                     # http://localhost:3000
 ```
 
+The schema lives in [`supabase/migrations`](./supabase/migrations). Apply it to
+your own Supabase project with the [Supabase CLI](https://supabase.com/docs/guides/local-development)
+(`supabase db push`) before using the media, billing or admin routes — they read
+tables that the migrations create.
+
 ## Repository layout
 
 ```
@@ -32,10 +37,17 @@ src/
   components/     React components
   lib/
     talent/       The Talent Algorithm — 7-dimension capability scoring
-    ai/           Claude client + prompt orchestration
-    supabase/     Server + browser clients
+    ai/           Claude client + prompt orchestration, and spend metering
+    media/        Path helpers + the access decision behind private media
+    expert-review/  Availability for the paid human review surface
+    observability/  Error reporting
+    supabase/     Server + browser clients, and a service-role client
+    maintenance.ts  The maintenance switch, read in middleware
+  middleware.ts   Runs on every request — see ARCHITECTURE.md § Runtimes
   types/          Shared types
-docs/             How we work — per-discipline handbooks
+supabase/
+  migrations/     The schema the above depends on
+docs/             How we work — per-discipline handbooks, and ADRs
 .github/          Issue/PR templates, CODEOWNERS, CI
 ```
 
@@ -52,7 +64,7 @@ Every craft has a short handbook. Read yours before opening a PR:
 | Marketing | [`docs/marketing`](./docs/marketing) |
 | Strategy & Ops | [`docs/operations`](./docs/operations) |
 
-Architecture: [`ARCHITECTURE.md`](./ARCHITECTURE.md) · Roadmap: [`ROADMAP.md`](./ROADMAP.md)
+Architecture: [`ARCHITECTURE.md`](./ARCHITECTURE.md) · Roadmap: [`ROADMAP.md`](./ROADMAP.md) · Decisions: [`docs/adr`](./docs/adr)
 
 ## Contributing
 
