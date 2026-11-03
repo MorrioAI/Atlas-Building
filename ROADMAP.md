@@ -11,7 +11,7 @@ The living plan. Reviewed regularly; issues track the detail.
   2026-11-03. The handbooks are in; the issues a learner in those roles would take are not.
 
 ### Next
-- AI Internship: multi-week deliverables with a talent profile that compounds.
+- Morrio Internship: multi-week deliverables with a talent profile that compounds.
 - Expert Review: human certification layer on top of AI evidence. Availability and its fail-closed guard are in ([ADR-0004](./docs/adr/0004-availability-checks-that-gate-payment-fail-closed.md)); the reviewer surface and checkout are not built.
 - Reporting on public surfaces: a report re-opens the existing moderation record rather than creating a second queue. Needs the moderation record first.
 
