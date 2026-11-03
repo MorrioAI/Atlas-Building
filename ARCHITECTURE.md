@@ -5,7 +5,7 @@ Atlas turns real work into verifiable capability evidence. Three layers:
 ```
             ┌──────────────────────────────────────────┐
   Product   │ AI Profile · Capability Challenge ·       │
-  surfaces  │ AI Video Intro · AI Internship            │
+  surfaces  │ Video Intro · Morrio Internship           │
             └───────────────┬──────────────────────────┘
                             │ signals (deliverables, transcripts, reviews)
             ┌───────────────▼──────────────────────────┐

@@ -3,7 +3,7 @@
 **Status:** Accepted
 
 ## Context
-AI Video Intro stores a recording in object storage and saves a reference on the row. The
+Video Intro stores a recording in object storage and saves a reference on the row. The
 obvious implementation puts the file in a public bucket and stores the public URL.
 
 That works until the product offers a privacy setting. Changing the setting changes the row; it

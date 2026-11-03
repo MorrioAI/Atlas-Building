@@ -6,6 +6,8 @@ How we work at Atlas. Short, opinionated, and enforced in review. Read the secti
 - **[Product](./product)** — spec template, RFC process
 - **[Design](./design)** — design doc template, design system
 - **[Data](./data)** — metrics standards, SQL style
+- **[Data Science](./data-science)** — score evaluation, uncertainty & fairness
+- **[Data Engineering](./data-engineering)** — event schema, write discipline
 - **[Marketing](./marketing)** — brand & voice
 - **[Operations](./operations)** — decision memos, [cost controls](./operations/cost-controls.md)
 - **[Architecture Decision Records](./adr)** — why the system is the way it is
