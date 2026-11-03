@@ -7,6 +7,8 @@ The living plan. Reviewed regularly; issues track the detail.
 - Reliability under load: rate limiting and persistent session state for the Challenge.
 - Finish the private-media path: upload, playback and the backfill of legacy absolute URLs ([ADR-0005](./docs/adr/0005-media-access-decided-by-the-database.md)).
 - An admin surface for the operational controls now in the schema: the maintenance flag, the spend ledger, and a configuration read-back endpoint.
+- Seed the backlog for the Data Science and Data Engineering tracks, which joined Universe on
+  2026-11-03. The handbooks are in; the issues a learner in those roles would take are not.
 
 ### Next
 - AI Internship: multi-week deliverables with a talent profile that compounds.

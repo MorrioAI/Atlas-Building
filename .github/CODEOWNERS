@@ -9,3 +9,8 @@
 /docs/product/          @MorrioAI/product
 /docs/design/           @MorrioAI/design
 /docs/data/             @MorrioAI/data
+# The two data tracks launched 2026-11-03 without teams of their own, so both
+# review through @MorrioAI/data for now. Note an unknown team here fails quietly:
+# GitHub flags it and stops applying the rule rather than blocking the merge.
+/docs/data-science/     @MorrioAI/data
+/docs/data-engineering/ @MorrioAI/data

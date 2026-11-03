@@ -61,6 +61,8 @@ Every craft has a short handbook. Read yours before opening a PR:
 | Product | [`docs/product`](./docs/product) |
 | Design | [`docs/design`](./docs/design) |
 | Data | [`docs/data`](./docs/data) |
+| Data Science | [`docs/data-science`](./docs/data-science) |
+| Data Engineering | [`docs/data-engineering`](./docs/data-engineering) |
 | Marketing | [`docs/marketing`](./docs/marketing) |
 | Strategy & Ops | [`docs/operations`](./docs/operations) |
 

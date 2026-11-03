@@ -8,6 +8,10 @@ Atlas is built in the open. Contributions here are real product changes — trea
 2. Find an issue labeled [`good first issue`](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or `help wanted`, or open one to propose a change.
 3. For anything non-trivial, open an **RFC** first (see [`docs/product/rfc-process.md`](./docs/product/rfc-process.md)) so we align before you build.
 
+Every issue carries a craft label, which is how you find your lane: `engineering`, `product`,
+`design`, `data`, `data-science`, `data-engineering`, `marketing`, `operations`. Each one maps
+to a handbook folder in [`docs/`](./docs).
+
 ## Workflow
 
 ```bash
